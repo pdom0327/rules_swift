@@ -364,7 +364,6 @@ toolchain(
         "@platforms//os:windows",
         "@platforms//cpu:x86_64",
     ],
-    target_compatible_with = APPLE_PLATFORMS_CONSTRAINTS[arch],
     toolchain = ":windows-toolchain",
     toolchain_type = "{toolchain_type}",
     visibility = ["//visibility:public"],
